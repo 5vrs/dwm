@@ -94,7 +94,7 @@ static const char *keepasscmd[]  = { "keepassxc", NULL };
 static const char *powermenucmd[] = { "sh", "-c", "~/.config/scripts/powermenu.sh", NULL };
 static const char *thunderbirdcmd[]  = { "thunderbird", NULL };
 static const char *wallpapercmd[] = { "sh", "-c", "~/.config/scripts/changewallpaper.sh &", NULL };
-static const char *vesktopcmd[] = { "vesktop", NULL }
+static const char *vesktopcmd[] = { "vesktop", NULL };
 static const char *vpncmd[] = { "sh", "-c", "~/.config/scripts/mullvadvpn.sh &", NULL };
 
 static const Key keys[] = {
