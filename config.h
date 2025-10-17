@@ -94,6 +94,7 @@ static const char *keepasscmd[]  = { "keepassxc", NULL };
 static const char *powermenucmd[] = { "sh", "-c", "~/.config/scripts/powermenu.sh", NULL };
 static const char *thunderbirdcmd[]  = { "thunderbird", NULL };
 static const char *wallpapercmd[] = { "sh", "-c", "~/.config/scripts/changewallpaper.sh &", NULL };
+static const char *vesktopcmd[] = { "vesktop", NULL };
 static const char *vpncmd[] = { "sh", "-c", "~/.config/scripts/mullvadvpn.sh &", NULL };
 
 static const Key keys[] = {
@@ -140,6 +141,7 @@ static const Key keys[] = {
         { MODKEY|ShiftMask,             XK_p,      spawn,          {.v = powermenucmd } },
 	{ MODKEY,                       XK_t,      spawn,          {.v = thunderbirdcmd } },
         { MODKEY,                       XK_w,      spawn,          {.v = wallpapercmd } },
+	{ MODKEY,			XK_v,	   spawn,          {.v = vesktopcmd } },
 	{ MODKEY|ShiftMask,             XK_v,      spawn,          {.v = vpncmd } },
 	{ 0,                            XF86XK_AudioPlay, spawn, {.v = medplaypausecmd } },
         { 0,                            XF86XK_AudioNext, spawn, {.v = mednextcmd } },
